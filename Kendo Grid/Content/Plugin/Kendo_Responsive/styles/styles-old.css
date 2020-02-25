@@ -1,0 +1,712 @@
+#PhoneNumber {
+    text-align: left;
+    direction: ltr;
+}
+#StableNumber {
+    text-align: left;
+    direction: ltr;
+}
+/*
+@font-face {
+    font-family: "Kendo UI";
+    src: url("http://kendo.cdn.telerik.com/2013.3.1030/styles/images/kendoui.woff") format("woff"), url("http://kendo.cdn.telerik.com/2013.3.1030/styles/images/kendoui.ttf") format("truetype");
+}
+*/
+.custom-red a {
+    color: red !important;
+    /* color: #fff !important; */
+}
+.datepicker-plot-area .datepicker-header .btn-prev
+{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.datepicker-plot-area .datepicker-header .btn-next
+{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.product {
+    padding: 13px 10px 13px 10px;
+}
+.product a {
+    color: #4A4848;
+}
+.product a:hover {
+    color: #A49C9C;
+    text-decoration: none;
+}
+.footer-email {
+width: 245px;
+height: 30px;
+padding: 2px 0 0 10px;
+border: none;
+float: left;
+background-color: #474747;
+margin-left: 15px;
+color: #fff;
+direction: ltr;
+font-size: 14px;
+}
+.footer-email-btn {
+height: 30px;
+width: 76px;
+border: none;
+background-color: #fbbb3d;
+color: #185394;
+font-weight: bold;
+}
+.footer .col-md-3 {
+/* border-top: #474747 solid thin; */
+/* padding-top: 10px; */
+}
+.footer a {
+color: #adadad;
+}
+.footer li{
+    direction:rtl;
+list-style: none;
+line-height: 1.85em;
+}
+.custom-header {
+background: #185394;
+min-height: 50px;
+padding: 0;
+}
+#container {
+margin-top: 15px;
+}
+.custom-under-header {
+padding: 15px 0 10px;
+background: #e9eaeb;
+min-height: 100px;
+background: url(../images/search-bg.png) #e9eaeb 0 0 no-repeat;
+}
+.padding-right-0 {
+    padding-right:0 !important;
+}
+.slogan {
+color: #d4eefc;
+padding: 16px;
+/* font-family: Helvetica, Arial, sans-serif !important; */
+font-size: 14px;
+}
+.custom-logo {
+margin-top: 8px;
+}
+.k-menu .k-item > .k-link {
+    display: table-cell;
+    padding: 15px 13px 15px 13px;
+}
+.padding-left-0 {
+    padding-left:0;
+}
+    #grid th, #grid td {
+text-align: center;
+}
+body:before {
+    font-family: "Kendo UI";
+    content: "\a0";
+    font-size: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}.footer a:hover {
+text-decoration: none;
+color: #E4DDDD;
+}
+.footer {
+background-color: #323232;
+font-size: 13px;
+color: #adadad;
+padding: 25px 0;
+}
+.margin-top-10 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+#example {
+    padding-top: 2em;
+}
+
+header {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    background-color: #272727;
+}
+
+    header h1,
+    header button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    header .container h1 {
+        margin: 0;
+        font-size: 21px;
+        line-height: 65px;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    #configure,
+    header label {
+        border-style: solid;
+        border-color: #636363;
+        border-width: 0 0 0 1px;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+
+    header .container {
+        position: relative;
+    }
+
+    header .description {
+        text-transform: uppercase;
+        color: #ccc;
+        font-size: 10px;
+        line-height: 29px;
+    }
+
+    header .k-dropdown,
+    header #font-size-value {
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: 9px;
+    }
+
+    header .k-dropdown {
+        width: 100%;
+    }
+
+    header .k-dropdown-wrap {
+        background-image: none !important;
+    }
+
+        header .k-dropdown,
+        header .k-dropdown-wrap.k-state-default {
+            background-color: transparent;
+            border-color: #5c5c5c;
+            border-radius: 0;
+        }
+
+        header .k-dropdown-wrap.k-state-hover,
+        header .k-dropdown-wrap.k-state-active,
+        header .k-dropdown-wrap.k-state-focused {
+            background-color: #030303;
+        }
+
+        header .k-dropdown-wrap.k-state-focused {
+            box-shadow: none;
+        }
+
+    header .k-dropdown .k-input {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+        text-indent: 14px;
+    }
+
+    header .k-dropdown .k-input,
+    header .k-dropdown-wrap .k-select {
+        line-height: 45px;
+    }
+
+    header .k-dropdown .k-i-arrow-s {
+        background-image: url("http://kendo.cdn.telerik.com/2013.2.918/styles/Bootstrap/sprite.png");
+        background-position: -16px -32px;
+    }
+
+    header .k-dropdown-wrap.k-state-default .k-input {
+        color: #fff;
+    }
+
+.k-popup.ra-list {
+    background-color: #010101;
+    border-color: #5c5c5c;
+    color: #fff;
+    padding: 0;
+    border-radius: 0;
+}
+
+    .k-popup.ra-list .k-state-hover,
+    .k-popup.ra-list .k-state-selected,
+    .k-popup.ra-list .k-state-focused {
+        background-image: none;
+        background-color: #555;
+        box-shadow: none;
+        color: #fff;
+        border-color: #555;
+    }
+
+    .k-popup.ra-list .k-item {
+        border-radius: 0;
+        text-indent: 7px;
+    }
+
+#configure {
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-width: 0 0 0 1px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+#demo {
+    padding-top: 46px;
+}
+
+#menu {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* background-color: #f5f5f5; */
+    /* border-color: #e3e3e3; */
+}
+
+#profile {
+    position: relative;
+}
+
+.ra-well-title {
+    font-size: 1.2857em;
+    line-height: 1.2857em;
+    border-bottom: 1px solid #e7e7e7;
+    margin: -5px -19px 0.8333em;
+    padding: 0 19px 0.7222em;
+}
+
+.ra-avatar {
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+}
+
+.ra-first-name {
+    display: block;
+    margin-top: 0.8571em;
+}
+
+.ra-last-name {
+    display: block;
+    font-size: 1.7143em;
+    line-height: 1.3em;
+}
+
+.ra-position {
+    font-size: 0.8571em;
+    color: #999;
+    padding-bottom: 2em;
+}
+
+.form-group .k-widget,
+.form-group .k-textbox {
+    width: 100%;
+}
+
+.buttons-wrap {
+    border-top: 1px solid #e7e7e7;
+    padding-top: .5em;
+    text-align: right;
+}
+
+.ra-section {
+    margin-bottom: 20px;
+}
+
+.ra-well-overlay {
+    margin: -16px -20px -19px;
+}
+
+#tabstrip .k-content {
+    min-height: 156px;
+}
+
+#tabstrip .k-chart {
+    height: 156px;
+}
+
+#tabstrip .k-content {
+    padding: 1px;
+}
+
+#tabstrip-4 {
+    text-align: center;
+}
+
+#tabstrip .km-icon:after {
+    font: 1.3em/1em "Kendo UI" !important;
+}
+
+.revenue:after {
+    content: "\E08C";
+}
+
+.spd:after {
+    content: "\E04B";
+}
+
+.spr:after {
+    content: "\E050";
+}
+
+.share:after {
+    content: "\E04E";
+}
+
+#tabstrip .k-tabstrip-items span {
+    float: left;
+    line-height: 1.3em;
+    vertical-align: middle;
+}
+
+#tabstrip .k-tabstrip-items .hidden-xs {
+    margin-left: 4px;
+}
+
+.market-donut {
+    display: inline-block;
+    width: 170px;
+}
+
+#panelbar .k-content {
+    padding: 1em;
+}
+
+#panelbar ul {
+    margin-bottom: 10px;
+}
+
+#listview {
+    list-style-type: none;
+    padding: 0 0 15px;
+}
+
+    #listview figure {
+        border: 1px solid #e7e7e7;
+        border-radius: 3px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+figure h4 {
+    font-size: 1.15em;
+}
+
+figure p.hidden-sm {
+    min-height: 80px;
+}
+
+footer {
+    text-align: right;
+    font-size: 0.8571em;
+    padding: 2em 0;
+}
+
+header .container h1.visible-sm {
+    padding-top: 10px;
+    line-height: 33px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .k-menu.k-menu-horizontal .k-item {
+        float: none;
+        /*kargar*/
+        width: 100% !important;
+        /*kargar*/
+    }
+    .other-responsive-menu {
+        display:none;
+    }
+    .header-responsive-menu {
+        display:block !important;
+    }
+    .k-item .k-link {
+        /*kargar*/
+        display: block !important;
+        text-align:center;
+border-bottom: 1px solid #c5c5c5;
+        /*kargar*/
+    }
+
+
+
+    header .container {
+        padding: 0;
+    }
+
+        header .container h1 {
+            padding-top: 0;
+            padding-left: 15px;
+            line-height: 50px;
+        }
+
+        header .container label {
+            border-width: 0;
+            display: block;
+        }
+
+    #configurator-wrap {
+        border-top: 1px solid #636363;
+        padding: 0;
+    }
+
+    #configurator {
+        background-color: #272727;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.k-black body,
+.k-metroblack body,
+.k-black .well,
+.k-metroblack .well,
+.k-black .ra-well-title,
+.k-metroblack .ra-well-title,
+.k-black .buttons-wrap,
+.k-metroblack .buttons-wrap {
+    border-color: #444;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.k-highcontrast body,
+.k-highcontrast .well .k-highcontrast .ra-well-title,
+.k-highcontrast .buttons-wrap {
+    border-color: #664e62;
+    background-color: #2c232b;
+    color: #fff;
+}
+
+.k-moonlight body,
+.k-moonlight .well,
+.k-moonlight .ra-well-title,
+.k-moonlight .buttons-wrap {
+    border-color: #171e28;
+    background-color: #212a33;
+    color: #fff;
+}
+
+.margin-left-16 {
+    margin-left: 16px;
+}
+
+.k-notification-upload-success.k-group {
+    background: rgba(0%,60%,0%,.7);
+    color: #fff;
+}
+
+.upload-success {
+    width: 268px;
+    padding: 0 30px;
+    line-height: 100px;
+}
+
+    .upload-success h3 {
+        font-size: 1.7em;
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: middle;
+line-height: 37px;
+        margin-right: 15px;
+        width: 210px;
+}
+
+    .upload-success img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.k-notification-info.k-group {
+    background: rgba(0%,0%,0%,.7);
+    color: #fff;
+}
+
+.new-mail {
+    width: 300px;
+    height: 100px;
+}
+
+    .new-mail h3 {
+        font-size: 1em;
+        padding: 32px 10px 5px;
+    }
+
+    .new-mail img {
+        float: left;
+        margin: 30px 15px 30px 30px;
+    }
+
+.k-notification-error.k-group {
+    background: rgba(100%,0%,0%,.7);
+    color: #ffffff;
+}
+
+.wrong-pass {
+    width: 300px;
+    height: 100px;
+}
+
+    .wrong-pass h3 {
+        font-size: 1em;
+    }
+
+    .wrong-pass img {
+        float: right;
+        margin: 15px 15px 30px 30px;
+    }
+    ul.nav.nav-pills.nav-justified.steps li {
+    padding: 0;
+}
+    ul.nav.nav-pills.nav-justified.steps {
+    padding: 0;
+}
+.progress-bar-success {
+float: right !important;
+}
+.progress {
+height: 20px !important;
+margin-bottom: 30px !important;
+overflow: hidden !important;
+background-color: #E8E8E8 !important;
+border-radius: 4px !important;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1) !important;
+box-shadow: 1px 2px 2px 1px rgba(1,1,1,0.1) !important;
+}
+#bar {
+    margin-top: 0px !important;
+    }
+.form-wizard .done .step .number {
+background-color: #f2ae43 !important;
+color: #fff !important;
+}
+.form-wizard .step .number {
+background-color: #eee !important;
+display: inline-block !important;
+font-size: 12px !important;
+text-align: center !important;
+font-weight: 300 !important;
+padding: 11px 15px 13px 15px !important;
+margin-left: 10px !important;
+height: 37px !important;
+width: 37px !important;
+-webkit-border-radius: 50% !important;
+-moz-border-radius: 50% !important;
+border-radius: 50% !important;
+}
+.form-wizard .steps li a {
+background-color: #fff !important;
+background-image: none !important;
+filter: none !important;
+border: 0px !important;
+box-shadow: none !important;
+font-size: 12px !important;
+}
+.form-wizard .steps li a {
+    cursor: pointer;
+}
+.form-wizard .steps li a {
+background-color: #fff !important;
+background-image: none !important;
+filter: none !important;
+border: 0px !important;
+box-shadow: none !important;
+text-align: right;
+}
+.form-wizard .steps {
+background-image: none !important;
+filter: none !important;
+border: 0px !important;
+box-shadow: none !important;
+}
+.form-wizard .steps {
+padding: 10px 0 !important;
+margin-bottom: 0px !important;
+}
+.form-wizard .active .step .number {
+background-color: #35aa47 !important;
+color: #fff !important;
+}
+.form-wizard .active .step .number {
+background-color: #35aa47 !important;
+color: #fff !important;
+}
+.form-wizard .active .step .desc {
+color: #333 !important;
+font-weight: 400 !important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+
+background-color: #fff !important;
+}
+.footer-title {
+font-size: 16px;
+font-weight: bold;
+margin: 0 0 10px;
+}
+.up-footer input {
+margin-top: 12px;
+}
+.k-grid .k-button {
+    margin: 2px .16em;
+}
+.up-footer .col-md-4 {
+padding: 0 17px 0 28px;
+}
+.margin-top {
+margin-top: 30px;
+}
+.quick {
+border-top: #474747 solid thin;
+padding: 10px 16px 0 0;
+}
+.row.up-footer p {
+line-height: 25px;
+}
+.demo-section {
+margin: 4.5em auto;
+padding: 10px;
+border: 1px solid rgba(20,53,80,0.05);
+}
+html {
+min-height: 600px;
+}
+.well {
+    background-color: #F1F1F1;
+}
+
+@media(min-width:768px){
+.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11{float:right;}
+}
+.k-widget.k-tooltip-validation {
+    border-color: #F34545;
+    background-color: #F34545;
+    color: #FFFFFF;
+}
+.done:hover a {
+    background-color: #F3F3F3 !important;
+    -webkit-transition: background-color 5s;
+    -moz-transition: background-color 5s;
+    -o-transition: background-color 5s;
+    -ms-transition: background-color 5s;
+    transition: background-color 0.25s;
+}

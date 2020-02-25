@@ -1,0 +1,23 @@
+﻿
+
+/* steps */
+#RegisterSteps.steps .active .desc{
+    font-weight: bold!important;
+}
+
+#RegisterSteps.steps {
+    margin-bottom: 25px !important;
+    padding: 0 !important;
+}
+
+.slogan:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* report */
+.indirect-patient, .indirect-patient td{
+    /*color: #a9a9a9;*/
+    color: #e18585;
+}

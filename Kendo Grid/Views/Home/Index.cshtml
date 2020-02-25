@@ -2,30 +2,52 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<script src="~/js/initView.js"></script>
+<script src="~/js/initVM.js"></script>
+<script>
+        var viewModel;
+        $(function () {
+            viewModel = initVM({
+                searchUrl: 'http://localhost/Kendo%20Grid/Home/Search',
+            });
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            kendo.bind($('#container'), viewModel);
+            initView(viewModel);
+        });
+</script>
+
+
+<div id="container">
+    <h2>لیست اسامی</h2>
+
+    <div class="wide">
+        <form id="Form" data-role="validator" novalidate="novalidate" action="@Url.Action("Search")" method="post">
+            <section class="well">
+                <h2 class="ra-well-title" data-bind="visible: titleIsVisible">جستجو بر اساس</h2>
+                <div class="clearfix"></div>
+                <div>
+                    <div class="form-horizontal form-widgets col-sm-6">
+                        <div class="form-group">
+                            <label class="control-label col-sm-4">نام</label>
+                            <div class="col-sm-8 col-md-6">
+                                <input data-bind="value: firstName" class="k-textbox x1" maxlength="50" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="buttons-wrap">
+                        <button type="button" class="k-button k-state-default k-primary" data-role="button" data-bind='click: onSearch'>جستجو</button>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br />&nbsp;<br />
+                    <div class="clearfix"></div>
+                    <div>
+                        <h4>نتایج جستجو: لیست اسامی</h4>
+                        <div id="grid"></div>
+                    </div>
+
+
+            </section>
+        </form>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>

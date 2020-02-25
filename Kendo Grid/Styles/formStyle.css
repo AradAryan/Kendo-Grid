@@ -1,0 +1,7 @@
+﻿.headerForm{width:990px;height:73px;background:#075ca3 url(../Images/headerForm.jpg) no-repeat top center;}
+.topForm{width:990px;height:26px;background:transparent url(../Images/topForm.png) no-repeat bottom center;}
+.bgTopForm{background:transparent url(../Images/bgTopForm.jpg) repeat-x top;}
+
+.middleForm{width:990px;background:transparent url(../Images/middleForm.png) repeat-y top center;height:100%;}
+.footerForm{width:100%;height:55px;background:#003f76 url(/Images/footerLight.jpg) no-repeat  center 50px;float:right;}
+.bottomPage p{font:normal 11px tahoma;color:#555;text-align:center;padding-top:10px;}

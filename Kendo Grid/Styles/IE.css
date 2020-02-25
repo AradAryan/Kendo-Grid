@@ -1,0 +1,14 @@
+﻿.MenuBox
+{
+    float: none;
+    border-bottom: 2px solid #e3c29c;
+    border-left: 2px solid #e3c29c;
+    border-right: 2px solid #e3c29c;
+    line-height: 0px;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    vertical-align: top;
+    height: 158px;
+    width: 199px;
+}

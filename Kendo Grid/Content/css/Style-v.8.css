@@ -1,0 +1,106 @@
+﻿
+
+/* steps */
+#RegisterSteps.steps .active .desc {
+    font-weight: bold !important;
+}
+
+#RegisterSteps.steps {
+    margin-bottom: 25px !important;
+    padding: 0 !important;
+}
+
+.slogan:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* report, users */
+.indirect-patient, .indirect-patient td, .inactive-user, .inactive-user td, .unverified-warning, .unverified-warning td {
+    color: #e18585;
+}
+.unverified-warning.non-red, .unverified-warning.non-red td{
+    color: #F9D007;
+}
+
+.announcements {
+    line-height: 2em;
+}
+
+.en-right, .en-ddl {
+    direction: ltr;
+    text-align: right;
+}
+
+.en-ddl {
+    padding-right: 0.3em !important;
+}
+
+.lab-result-table {
+    border-collapse: collapse;
+    margin: 0 auto 25px auto;
+}
+
+    .lab-result-table td, .lab-result-table th {
+        border: 1px solid #ccc;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .lab-result-table th {
+        font-weight: normal;
+    }
+
+    .lab-result-table td.bold {
+        font-weight: bold;
+    }
+
+.labLevel-L1 {
+    background-color: #e1e1e1;
+}
+
+.labLevel-L2 {
+    background-color: #fff;
+}
+
+.labLevel-L3 {
+    background-color: #FBFF77;
+}
+
+
+
+
+fieldset.group {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+}
+
+    fieldset.group legend {
+        border: medium none;
+        display: inline-block !important;
+        font-size: inherit;
+        margin: 0;
+        padding: 0 5px;
+        width: auto;
+    }
+
+
+
+.unselectable {
+    color: #808080;
+}
+
+    .unselectable:hover {
+        background-color: none;
+    }
+
+.printBtn {
+    line-height: 0.8;
+    left: 2px;
+    position: absolute;
+}
+
+.labNameCell {
+    position: relative;
+}

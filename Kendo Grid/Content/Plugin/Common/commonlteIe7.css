@@ -1,0 +1,914 @@
+﻿/*============================================initial==========================================*/
+* {
+    padding: 0;
+    margin: 0;
+    font: normal 11px tahoma;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+
+body {
+    overflow: hidden;
+}
+
+
+img {
+    border: 0px;
+}
+
+div[d-field] label {
+    text-align: right;
+    height: 23px;
+    margin: 1px 0 !important;
+}
+
+div[d-field] a {
+    text-align: right;
+    color: #256af6;
+    float: right;
+    cursor: pointer;
+    height: 23px;
+    margin: 1px 0 !important;
+}
+
+    div[d-field] a:hover {
+        color: #2d00be;
+    }
+
+.k-menu .k-item.d-not
+{
+    display: none;
+}
+.d-ltr {
+    direction: ltr;
+}
+
+.d-center {
+    text-align: center;
+}
+
+/*textarea.k-textbox,
+input.k-textbox,
+.k-autocomplete input.k-textbox
+{
+    border-width: 0;
+    padding: 4px 0;
+    text-align: center;
+    resize: none;
+    height: 2.12em;
+}*/
+
+.k-widget.k-numerictextbox.k-textbox
+/*input.k-formatted-value.k-textbox,*/ {
+    border: 0;
+}
+/*.k-autocomplete {
+    border: 1px solid #bbb;
+}*/
+/*============================================datepicker==========================================*/
+.k-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+}
+
+    .k-datepicker .k-datepicker-header {
+        position: relative;
+        padding: .2em 0;
+    }
+
+    .k-datepicker .k-datepicker-prev, .k-datepicker .k-datepicker-next {
+        position: absolute;
+        top: 6px;
+        width: 1.8em;
+        height: 1.8em;
+    }
+
+    .k-datepicker .k-datepicker-prev-hover, .k-datepicker .k-datepicker-next-hover {
+        top: 6px;
+    }
+
+    .k-datepicker .k-datepicker-prev {
+        left: 6px;
+    }
+
+    .k-datepicker .k-datepicker-next {
+        right: 6px;
+    }
+
+    .k-datepicker .k-datepicker-prev-hover {
+        left: 6px;
+    }
+
+    .k-datepicker .k-datepicker-next-hover {
+        right: 6px;
+    }
+
+    .k-datepicker .k-datepicker-prev span, .k-datepicker .k-datepicker-next span {
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin-left: -8px;
+        top: 50%;
+        margin-top: -8px;
+    }
+
+    .k-datepicker .k-datepicker-title {
+        margin: 0 2.3em;
+        line-height: 1.8em;
+        text-align: center;
+    }
+
+        .k-datepicker .k-datepicker-title select {
+            font-size: 1em;
+            margin: 2px 1px;
+        }
+
+    .k-datepicker select.k-datepicker-month-year {
+        width: 100%;
+    }
+
+    .k-datepicker select.k-datepicker-month,
+    .k-datepicker select.k-datepicker-year {
+        width: 49%;
+    }
+
+    .k-datepicker table {
+        width: 100%;
+        font-size: .9em;
+        border-collapse: collapse;
+        margin: 0 0 .4em;
+    }
+
+    .k-datepicker th {
+        padding: .7em .3em;
+        text-align: center;
+        font-weight: bold;
+        border: 0;
+    }
+
+    .k-datepicker td {
+        border: 0;
+        padding: 1px;
+    }
+
+        .k-datepicker td span, .k-datepicker td a {
+            display: block;
+            padding: .2em;
+            text-align: right;
+            text-decoration: none;
+        }
+
+    .k-datepicker .k-datepicker-buttonpane {
+        background-image: none;
+        margin: .7em 0 0 0;
+        padding: 0 .2em;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+        .k-datepicker .k-datepicker-buttonpane button {
+            float: right;
+            margin: .5em .2em .4em;
+            cursor: pointer;
+            padding: .2em .6em .3em .6em;
+            width: auto;
+            overflow: visible;
+        }
+
+            .k-datepicker .k-datepicker-buttonpane button.k-datepicker-current {
+                float: left;
+            }
+    /*============================================with multiple calendars==========================================*/
+    .k-datepicker.k-datepicker-multi {
+        width: auto;
+    }
+
+.k-datepicker-multi .k-datepicker-group {
+    float: left;
+}
+
+    .k-datepicker-multi .k-datepicker-group table {
+        width: 95%;
+        margin: 0 auto .4em;
+    }
+
+.k-datepicker-multi-2 .k-datepicker-group {
+    width: 50%;
+}
+
+.k-datepicker-multi-3 .k-datepicker-group {
+    width: 33.3%;
+}
+
+.k-datepicker-multi-4 .k-datepicker-group {
+    width: 25%;
+}
+
+.k-datepicker-multi .k-datepicker-group-last .k-datepicker-header {
+    border-left-width: 0;
+}
+
+.k-datepicker-multi .k-datepicker-group-middle .k-datepicker-header {
+    border-left-width: 0;
+}
+
+.k-datepicker-multi .k-datepicker-buttonpane {
+    clear: left;
+}
+
+.k-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0em;
+}
+/*============================================datepicker RTL support==========================================*/
+.k-datepicker-rtl {
+    direction: rtl;
+}
+
+    .k-datepicker-rtl .k-datepicker-prev {
+        right: 2px;
+        left: auto;
+    }
+
+    .k-datepicker-rtl .k-datepicker-next {
+        left: 2px;
+        right: auto;
+    }
+
+    .k-datepicker-rtl .k-datepicker-prev:hover {
+        right: 1px;
+        left: auto;
+    }
+
+    .k-datepicker-rtl .k-datepicker-next:hover {
+        left: 1px;
+        right: auto;
+    }
+
+    .k-datepicker-rtl .k-datepicker-buttonpane {
+        clear: right;
+    }
+
+        .k-datepicker-rtl .k-datepicker-buttonpane button {
+            float: left;
+        }
+
+            .k-datepicker-rtl .k-datepicker-buttonpane button.k-datepicker-current {
+                float: right;
+            }
+
+    .k-datepicker-rtl .k-datepicker-group {
+        float: right;
+    }
+
+    .k-datepicker-rtl .k-datepicker-group-last .k-datepicker-header {
+        border-right-width: 0;
+        border-left-width: 1px;
+    }
+
+    .k-datepicker-rtl .k-datepicker-group-middle .k-datepicker-header {
+        border-right-width: 0;
+        border-left-width: 1px;
+    }
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.k-datepicker-cover {
+    display: none; /*sorry for IE5*/
+    display /**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}
+
+.k-datepicker-calendar {
+    padding: 50px;
+}
+
+    .k-datepicker-calendar td a {
+        text-align: center;
+    }
+
+.kd-state-disabled {
+    cursor: default !important;
+}
+
+.kd-state-disabled, .ui-widget-content .kd-state-disabled, .ui-widget-header .kd-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none;
+}
+/*=========================================states and images=======================================*/
+.kd-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background: #333 url(../kendo/theme/official/sprite.png);
+    background-repeat: no-repeat;
+}
+
+
+.kd-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(../kendo/theme/official/sprite.png);
+}
+
+.kd-icon-circle-triangle-e {
+    background-position: 0px -192px;
+}
+
+.kd-icon-circle-triangle-w {
+    background-position: 0px -208px;
+}
+
+.k-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -khtml-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.k-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -khtml-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.k-corner-aldl, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    -moz-border-radius-bottomleft: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -khtml-border-bottom-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.k-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    -moz-border-radius-bottomright: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -khtml-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.k-datepicker-calendar {
+    -webkit-box-shadow: 0 0px 0px 0 rgba(18,115,157,0.5) !important;
+    box-shadow: 0 0px 0px 0 rgba(18,115,157,0.5) !important;
+}
+
+.k-datepicker {
+    border-width: 1px !important;
+    border-style: solid !important;
+}
+/*=========================================message=======================================*/
+.notification-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 10px 35px;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: 99.8% 50%;
+    border-style: ridge;
+    border-width: 2px;
+    moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+div.notification-bar.success {
+    border-color: #00ff21;
+    background: #d1ffb2 url('../image/success24.png') no-repeat center right;
+}
+
+div.notification-bar.info {
+    border-color: #5797ef;
+    background: #acd6e3 url('../image/info24.png') no-repeat center right;
+}
+
+div.notification-bar.warning {
+    border-color: #ffd800;
+    background: #fff2a9 url('../image/warning24.png') no-repeat center right;
+}
+
+div.notification-bar.error {
+    border-color: #f00;
+    background: #fdbaba url('../image/error24.png') no-repeat center right;
+}
+
+.validation-error {
+    border-color: red !important;
+    -webkit-box-shadow: 0 1px 1px rgba(9, 9, 9, 0.075) inset, 0 0 8px rgba(9, 9, 9, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(9, 9, 9, 0.075) inset, 0 0 8px rgba(9, 9, 9, 0.3);
+    box-shadow: 0 1px 1px rgba(9, 9, 9, 0.075) inset, 0 0 8px rgba(9, 9, 9, 0.3);
+}
+
+.validation-msg {
+    /*white-space: nowrap;*/
+    position: absolute;
+    background-color: #ffd800;
+    border: 1px solid #e2c002;
+    padding: 5px;
+    display: none;
+    z-index: 1;
+}
+
+.alert-message,
+.confirm-message {
+    text-align: center;
+    padding: 10px 10px 35px 10px;
+    line-height: 20px;
+}
+
+button.confirm-yes {
+    margin-left: 8px;
+}
+
+/*=========================================other=======================================*/
+
+div[d-field].d-command-bar {
+    text-align: center;
+}
+
+button.main-command,
+input[type="button"].main-command {
+    min-width: 60px;
+}
+
+.k-splitter .k-scrollable {
+    overflow: hidden;
+}
+
+.k-window-titlebar.k-header {
+    box-sizing: content-box;
+}
+
+.k-dropdown-wrap .k-input, .k-dropdown-wrap.k-state-focused .k-input,
+.k-picker-wrap.k-state-focused .k-input, .k-numeric-wrap.k-state-focused .k-input {
+    height: 100%;
+}
+
+.k-button, .k-button.k-state-disabled:hover, .k-state-disabled .k-button:hover, .k-button.k-state-disabled:active, .k-state-disabled .k-button:active {
+    padding: 4px 20px 4px 20px;
+    outline: none;
+}
+
+    .k-button.newColor, .k-button.newColor.k-state-disabled:hover, .k-state-disabled .k-button.newColor:hover, .k-button.newColor.k-state-disabled:active, .k-state-disabled .k-button.newColor:active {
+        padding: 4px 20px 4px 20px;
+        outline: none;
+    }
+/*============================================layouting==========================================*/
+
+div[d-wrp] {
+    min-width: 775px;
+    width: 95%;
+    border: solid 1px #e7e7e7;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+
+    div[d-wrp] div[d-field] > h4 {
+        float: right;
+        padding: 5px 0;
+        text-align: center;
+        width: 99%;
+        margin: 0 0 3px 0;
+        text-indent: 5px;
+    }
+
+    div[d-wrp].d-horizontal div[d-field] > h4 {
+        float: right;
+        padding: 5px 0;
+        width: 99%;
+        text-align: right;
+        margin: 0 !important;
+    }
+
+    div[d-wrp].d-horizontal > h4 {
+        margin-bottom: 10px;
+    }
+
+    div[d-wrp] div[d-field] {
+        overflow: hidden;
+        border-width: 0;
+        padding: 10px 0;
+        min-height: 30px;
+    }
+
+    div[d-wrp].d-horizontal div[d-field] {
+        overflow: hidden;
+        min-height: 40px;
+        background-color: #fafafa;
+        padding: 5px 0;
+    }
+
+div[d-field] > span.k-autocomplete {
+    height: 22px;
+}
+
+    div[d-field] > span.k-autocomplete > input {
+        height: 20px;
+        border: none;
+        width: 98% !important;
+    }
+/*=============*/
+
+div[d-wrp] div[d-field].x1 .x05 {
+    width: 46%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x1 .x1 {
+    width: 98%;
+    margin: 1px 0;
+}
+
+div[d-wrp] div[d-field].x2 .x05 {
+    width: 22.5%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x2 .x1 {
+    width: 47%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x2 .x2 {
+    width: 98%;
+    margin: 1px 0;
+}
+
+div[d-wrp] div[d-field].x3 .x05 {
+    width: 15.33%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x3 .x1 {
+    width: 30.666%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x3 .x2 {
+    width: 63.332%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x3 .x3 {
+    width: 98%;
+    margin: 1px 0;
+}
+
+div[d-wrp] div[d-field].x4 .x05 {
+    width: 10.25%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x4 .x1 {
+    width: 22.5%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x4 .x2 {
+    width: 47%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x4 .x3 {
+    width: 71.5%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x4 .x4 {
+    width: 98%;
+    margin: 1px 0;
+}
+
+div[d-wrp] div[d-field].x5 .x05 {
+    width: 7.8%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x5 .x1 {
+    width: 17.6%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x5 .x2 {
+    width: 37.2%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x5 .x3 {
+    width: 56.8%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x5 .x4 {
+    width: 78%;
+    margin: 1px 1%;
+}
+
+div[d-wrp] div[d-field].x5 .x5 {
+    width: 98%;
+    margin: 1px 0;
+}
+
+div[d-wrp] div[d-field] .k-widget input {
+    margin: 0 1% !important;
+}
+
+/*=============*/
+
+div[d-wrp].x1 {
+    min-width: 120px;
+    max-width: 300px;
+}
+
+    div[d-wrp].x1 div[d-field].x05 {
+        width: 46%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x1 div[d-field].x1 {
+        width: 96%;
+        margin: 0 1%;
+    }
+
+div[d-wrp].x2 {
+    min-width: 240px;
+    max-width: 500px;
+}
+
+    div[d-wrp].x2 div[d-field].x05 {
+        width: 22.5%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x2 div[d-field].x1 {
+        width: 47%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x2 div[d-field].x2 {
+        width: 96%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x2 div[d-field].x3 {
+        width: 145%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x2 div[d-field].x4 {
+        width: 194%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x2 div[d-field].x5 {
+        width: 243%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x2 div[d-field].d-command-bar {
+        width: 96%;
+        margin: 10px 0;
+    }
+
+div[d-wrp].x3 {
+    min-width: 360px;
+    max-width: 1000px;
+}
+
+    div[d-wrp].x3 div[d-field].x05 {
+        width: 14.333%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x3 div[d-field].x1 {
+        width: 30.666%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x3 div[d-field].x2 {
+        width: 63.332%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x3 div[d-field].x3 {
+        width: 96%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x3 div[d-field].x4 {
+        width: 128.664%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x3 div[d-field].x5 {
+        width: 161.33%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x3 div[d-field].d-command-bar {
+        width: 96%;
+        margin: 10px 0;
+    }
+
+div[d-wrp].x4 {
+    min-width: 480px;
+    max-width: 1500px;
+}
+
+    div[d-wrp].x4 div[d-field].x05 {
+        width: 10.25%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x4 div[d-field].x1 {
+        width: 22.5%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x4 div[d-field].x2 {
+        width: 47%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x4 div[d-field].x3 {
+        width: 73%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x4 div[d-field].x4 {
+        width: 96%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x4 div[d-field].x5 {
+        width: 120.5%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x4 div[d-field].d-command-bar {
+        width: 96%;
+        margin: 10px 0;
+    }
+
+div[d-wrp].x5 {
+    min-width: 600px;
+    max-width: 2000px;
+}
+
+    div[d-wrp].x5 div[d-field].x05 {
+        width: 7.8%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x5 div[d-field].x1 {
+        width: 17.6%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x5 div[d-field].x2 {
+        width: 37.2%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x5 div[d-field].x3 {
+        width: 56.8%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x5 div[d-field].x4 {
+        width: 76.4%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x5 div[d-field].x5 {
+        width: 96%;
+        margin: 0 1%;
+    }
+
+    div[d-wrp].x5 div[d-field].d-command-bar {
+        width: 96%;
+        margin: 10px 0;
+    }
+
+/*.k-animation-container, .km-popup , .k-list-container  {box-sizing:content-box;}*/
+
+div[d-field] span.k-dropdown-wrap {
+    border-width: 0;
+    height: 100%;
+}
+
+div[d-field] span.k-icon.k-i-arrow-s {
+    position: static;
+    margin-top: 0;
+    background-position: 0 -32px;
+}
+
+div[d-field]:after, div[d-wrp]:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+div[d-field].d-newline {
+    clear: both;
+    float: right;
+}
+
+.k-textbox {
+    box-sizing: content-box !important;
+}
+
+div[d-field] > textarea,
+div[d-field] > span.k-widget.k-dropdown,
+div[d-wrp] div[d-field],
+label[d-label],
+span.k-autocomplete.k-header.k-textbox,
+label {
+    float: right;
+    width: 98%;
+    margin: 0;
+}
+
+div[d-field] > span.k-widget.k-dropdown {
+    height: 23px;
+}
+
+div[d-field] > select {
+    float: right;
+    width: 100%;
+    font-size: 16px;
+    height: 23px;
+}
+
+div[d-field] > input.k-textbox, div[d-wrp] div[d-field] .k-numerictextbox input.k-textbox {
+    text-align: center;
+}
+
+input
+{
+    text-align: center;
+}
+div[d-field] > input.k-textbox, textarea,
+ input.k-input, div[d-wrp] div[d-field] .k-numerictextbox input.k-textbox {
+    border: 1px solid #707070;
+    padding: 0;
+    margin: 1px 0;
+    float: right;
+    width: 97%;
+    height: 21px;
+}
+
+
+    /*.k-textbox > input {width:100% ;margin:1px 0 ;padding:0  ;}*/
+    /*textarea {width:96% ;margin:1px 0 ;padding:0 ;}*/
+
+    div[d-field] > input.k-textbox:hover, textarea:hover,
+    span.k-combobox:hover,
+    span.k-dropdown:hover,
+    span.k-numerictextbox span.k-state-hover input,
+    span.k-autocomplete.k-state-hover {
+        border: 1px solid #999;
+        background-color: #f9f9f9;
+    }
+
+    div[d-field] > input.k-textbox:focus,
+    textarea:focus,
+    span.k-combobox:focus,
+    span.k-dropdown:focus,
+    span.k-numerictextbox span.k-state-focused input,
+    span.k-autocomplete.k-state-focused {
+        border: 1px solid #707070;
+        outline: 0 none;
+    }
+
+div[d-wrp] > h4 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#grid .k-grid-pager {
+    overflow: hidden;
+}

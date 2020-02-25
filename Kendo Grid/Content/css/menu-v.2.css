@@ -1,0 +1,40 @@
+﻿#menu {
+    border: 0;
+    background: none !important;
+    border-color: #e3e3e3;
+    border: 0;
+}
+
+    #menu li {
+        border: 0;
+        font-size: 12px;
+    }
+
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+
+
+
+.k-menu .k-item > .k-link {
+    display: table-cell;
+}
+
+.header-responsive-menu {
+    display: none;
+    background-image: url(/resource/Plugin/Kendo_Responsive/images/list.pngimages/list.png) !important;
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: center center;
+}
+
+.k-rtl .k-menu .k-item, .k-rtl .k-widget.k-menu-horizontal > .k-item {
+    direction: rtl;
+}
+
+body * {
+    font-family: 'F' !important;
+}
+
+
+

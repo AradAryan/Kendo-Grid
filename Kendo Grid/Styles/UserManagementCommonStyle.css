@@ -1,0 +1,210 @@
+﻿body {
+}
+
+input[type=text] {
+    width: 290px;
+    height: 20px;
+    font-size: 11pt;
+}
+
+input[type=password] {
+    width: 290px;
+    height: 20px;
+    font-size: 11pt;
+}
+
+select {
+    height: 25px;
+}
+
+.btnStyle {
+    padding: 5px;
+}
+
+.BasicDataTypeName {
+    float: right;
+    width: 113px;
+    font-size: 8pt;
+}
+
+.successInfo {
+    height: AUTO;
+    width: 94%;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 6px;
+    background-color: rgb(227, 249, 255);
+    background: linear-gradient(rgba(237, 250, 255, 0.95), rgba(161, 234, 255, 0.93), rgb(0, 215, 239));
+    margin: 6px;
+    text-align: center;
+    font-size: 13PX;
+    border-radius: 4px;
+}
+
+.ValdationStyle {
+    padding: 6px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(129, 0, 59);
+    background: linear-gradient(rgba(255, 14, 0, 1), rgb(201, 0, 0), rgb(163, 0, 0));
+    font-size: 11px;
+    border-radius: 4px;
+    margin: 8px;
+    text-align: center;
+}
+
+.BasicDataTypeNameBox {
+    height: auto;
+    width: 432px;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 6px;
+    background-color: rgb(255, 243, 227);
+    background: linear-gradient(rgba(255, 251, 237, 0.95), rgb(255, 250, 226), rgb(255, 241, 218));
+    margin: 6px;
+    border-radius: 4px;
+}
+
+.GetGUID {
+    height: 30px;
+    background-color: rgb(205, 255, 204);
+    background: linear-gradient(rgba(209, 246, 251, 1), rgb(225, 244, 255), rgba(206, 247, 255, 1));
+    margin: 9px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 34px;
+}
+
+/*************************** User Form and Center Form Styles  in 1393/1/11 **************************************/
+
+.btnStyle {
+    padding: 5px;
+}
+
+.BasicDataTypeName {
+    float: right;
+    width: 113px;
+}
+
+.BasicDataTypeNameBox {
+    height: auto;
+    width: 432px;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 6px;
+    background-color: rgb(255, 243, 227);
+    margin: 6px;
+    border-radius: 4px;
+}
+
+.GetGUID {
+    height: 25px;
+    background-color: rgb(185, 255, 251);
+    margin: 9px;
+    border-radius: 5px;
+}
+
+.textArea {
+    width: 300px;
+    height: 60px;
+}
+
+.OprationBox {
+    width: 460px;
+    /* height: 500px; */
+    float: right;
+    padding: 9px;
+    position: relative;
+    /*right: 25%;*/
+    background-color: rgb(254, 255, 241);
+    margin: 10px;
+    background: linear-gradient(160deg, rgba(195, 198, 242, 0.25), rgba(255, 152, 152, 0.23));
+    direction: rtl;
+    /* border: 1px solid rgb(200, 200, 200); */
+    border-radius: 5px;
+}
+
+/*******************************************************************************************/
+.btn_Save_Style {
+    padding: 1px;
+    width: 120px;
+    font-size: 12pt;
+}
+
+.BasicDataTypeNameBox_btn {
+    height: auto;
+    width: 122px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 6px;
+    background-color: rgb(227, 229, 255);
+    margin: 6px 35%;
+    border-radius: 4px;
+    background: linear-gradient(rgba(237, 246, 255, 0.95), rgb(84, 228, 255), rgb(0, 170, 250));
+}
+
+.UMCheader {
+    height: 64px;
+    text-align: center;
+    width: 70px;
+    padding: 0px;
+    border-radius: 25px;
+    position: relative;
+    right: 190px;
+    /* margin: 0px 186px; */
+    font: 10p;
+    display: block;
+    font-size: 3pt;
+    background-color: rgb(255, 254, 241);
+    /* border: 2px solid rgb(238, 238, 238); */
+    border-radius: 7px;
+}
+
+.treeViewBox {
+    width: 42%;
+    height: auto;
+    float: right;
+    overflow: scroll;
+    background: linear-gradient(rgba(255, 237, 237, 1), rgba(231, 218, 255, 1), rgba(174, 232, 251, 1),rgba(174, 255, 189, 1),rgba(255, 255, 199, 1),rgba(255, 200, 166, 1));
+    margin: 10px;
+    padding: 5px 25px 5px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(174, 174, 174);
+}
+
+    .treeViewBox span.k-in {
+    }
+
+.demo-section {
+    width: 200px;
+}
+
+#treeview .k-sprite {
+    background-image: url("../Content/coloricons-sprite.png");
+}
+
+.rootfolder {
+    background-position: 0 0;
+}
+
+.folder {
+    background-position: 0 -16px;
+}
+
+.pdf {
+    background-position: 0 -32px;
+}
+
+.html {
+    background-position: 0 -48px;
+}
+
+.image {
+    background-position: 0 -64px;
+}
+
+.TitleOfRegister {
+    text-align: center;
+    padding: 5px;
+    margin: 8px 20%;
+    font-size: 20px;
+    background: linear-gradient(rgba(254, 244, 255, 0.74), rgba(255, 206, 254, 0.83), rgba(236, 167, 255, 1));
+    border: 2px solid rgb(173, 173, 173);
+}

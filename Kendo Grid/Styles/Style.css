@@ -1,0 +1,1552 @@
+﻿@import "reset.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff url(../Images/pattern.jpg) repeat;
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.bgTop {
+    background: transparent url(../Images/bgTop.jpg) repeat-x top;
+}
+
+/*header*/
+.header {
+    width: 990px;
+    height: 485px;
+    background: #005179 url(../Images/header.jpg) no-repeat bottom center;
+}
+
+.headerTop {
+    width: 990px;
+    height: 75px;
+    background: #0e82e3 url(../Images/headerTop.jpg) no-repeat top center;
+}
+
+.topMenuDiv {
+}
+
+#topMenu {
+    float: right;
+    margin-right: 14px;
+    padding-top: 30px;
+    direction: rtl;
+}
+
+    #topMenu li {
+        display: inline;
+    }
+
+        #topMenu li a {
+   font: bold 13px tahoma;
+color: #e9e9e9;
+padding: 0 25px;
+text-decoration: none;
+background: transparent url(../Images/arrow.png) no-repeat center right;
+}
+
+            #topMenu li a:hover {
+                color: #fff;
+            }
+
+
+
+.searchDiv {
+    width: 227px;
+    height: 27px;
+    float: left;
+    border: solid 1px #013869;
+    background-color: #0a75cf;
+    margin-top: 23px;
+}
+
+.searchTxt {
+    width: 200px;
+    height: 25px;
+    float: right;
+    font: normal 13px tahoma;
+    color: #ccc;
+    background-color: transparent;
+    border: none;
+}
+
+.searchBtn {
+    width: 25px;
+    height: 25px;
+    float: right;
+    background: transparent url(/Images/searchBtn.png) no-repeat center left;
+    border: none;
+    font-size: 0;
+    cursor: pointer;
+}
+
+    .searchBtn:hover {
+        background: transparent url(../Images/searchBtn-hover.png) no-repeat center left;
+    }
+
+
+
+.en {
+    width: 70px;
+    height: 28px;
+    background: #a3d6ff url(../Images/en.png) no-repeat center left;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+.fa {
+    width: 70px;
+    height: 28px;
+    background: #a3d6ff url(../Images/fa.png) no-repeat center left;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 24px;
+}
+
+.en:hover {
+    background: #a3d6ff url(../Images/en-hover.png) no-repeat center left;
+}
+
+.fa:hover {
+    background: #a3d6ff url(../Images/fa-hover.png) no-repeat center left;
+}
+
+/*--------------*/
+
+/*slider*/
+.imgSlider {
+    width: 633px;
+    height: 353px;
+    background-color: #fff;
+    float: left;
+    margin: 13px 0 0 14px;
+}
+
+/*--------------*/
+
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+/*Page*/
+.content {
+    width: 990px;
+}
+
+.topPage {
+    width: 990px;
+    height: 20px;
+    background: transparent url(../Images/topPage.png) no-repeat bottom center;
+    float: right;
+}
+
+.middlePage {
+    width: 990px;
+    background: transparent url(../Images/middlePage.png) repeat-y center;
+    float: right;
+    min-height: 300px;
+}
+/*--------------*/
+
+/*divRight*/
+.divRight {
+    width: 340px;
+    float: right;
+}
+
+.control {
+    width: 318px;
+    float: left;
+}
+
+.topControl {
+    width: 318px;
+    height: 55px;
+    background: transparent url(../Images/topControl.png) no-repeat bottom center;
+    float: right;
+}
+
+    .topControl span {
+        font: bold 10px tahoma;
+        color: #003f76;
+        float: right;
+        padding-top: 16px;
+        padding-right: 60px;
+    }
+
+.middleControl {
+    width: 318px;
+    background: transparent url(../Images/middleControl.png) repeat-y center;
+    float: right;
+}
+
+.bottomControl {
+    width: 318px;
+    height: 23px;
+    background: transparent url(../Images/bottomControl.png) no-repeat top center;
+    float: right;
+}
+
+.mrgBottom {
+    margin-bottom: 20px;
+}
+
+.pad {
+    width: 300px;
+    float: right;
+    height: 15px;
+}
+
+.lblLogin {
+    width: 50px;
+    float: right;
+    height: 30px;
+    font: normal 11px tahoma;
+    color: #333;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.txtLogin {
+    width: 200px;
+    float: right;
+    height: 30px;
+    text-align: right;
+}
+
+.loginTxt {
+    width: 170px;
+    height: 21px;
+    background-color: #fff;
+    border: solid 1px #b5b5b5;
+    margin-right: 10px;
+    font: normal 11px tahoma;
+    color: #555;
+}
+
+    .loginTxt:active, .loginTxt:hover {
+        background-color: #f6f6f6;
+    }
+
+    .loginTxt:focus {
+        box-shadow: 0 1px 1px rgba(9, 9, 9, 0.075) inset, 0 0 3px rgba(9, 9, 9, 0.3);
+        outline: 0 none;
+        border: solid 1px #b9b9b9;
+        transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    }
+
+.divRow {
+    width: 300px;
+    float: right;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+.middleControl a {
+    font: normal 10px tahoma;
+    color: #065daa;
+    text-decoration: none;
+}
+
+    .middleControl a:hover {
+        color: #02315a;
+    }
+
+.btnBlue {
+    width: 85px;
+    height: 31px;
+    background: transparent url(../Images/btnBlue.png) no-repeat top center;
+    border: none;
+    font: bold 9px tahoma;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.mrgLeft {
+    margin-left: 70px;
+}
+
+.btnBlue:hover {
+    background: transparent url(../Images/btnBlue-hover.png) no-repeat top center;
+}
+
+
+.vMenu {
+    width: 260px;
+    float: right;
+    margin-right: 30px;
+}
+
+#ulMenu li {
+    text-align: right;
+}
+
+    #ulMenu li a {
+        background: #eaeaea url(../Images/bgMenu.png) no-repeat top right;
+        font: normal 11px tahoma;
+        color: #065daa;
+        height: 40px;
+        width: 240px;
+        display: block;
+        padding-top: 7px;
+        padding-right: 25px;
+        direction: rtl;
+    }
+
+        #ulMenu li a:hover {
+            background: #eaeaea url(../Images/bgMenuHover.png) no-repeat top right;
+            color: #4f6514;
+        }
+
+/*--------------*/
+
+/*divLeft*/
+.divLeft {
+    width: 650px;
+    float: right;
+}
+
+.topWideControl {
+    width: 608px;
+    height: 55px;
+    background: transparent url(../Images/topWideControl.jpg) no-repeat top right;
+    float: right;
+    margin-right: 20px;
+}
+
+    .topWideControl span {
+        font: bold 10px tahoma;
+        color: #003f76;
+        float: right;
+        padding-top: 16px;
+        padding-right: 44px;
+    }
+
+.bodyWideControl {
+    width: 608px;
+    float: right;
+    margin-right: 20px;
+    padding: 15px 0;
+}
+
+    .bodyWideControl img {
+        float: right;
+    }
+
+    .bodyWideControl p.about {
+        font: normal 11px tahoma;
+        color: #555;
+        text-align: justify;
+        width: 350px;
+        float: right;
+        margin-right: 15px;
+        padding-top: 20px;
+        direction: rtl;
+    }
+
+    .bodyWideControl p.news {
+        font: normal 11px tahoma;
+        color: #555;
+        text-align: justify;
+        width: 455px;
+        float: right;
+        margin-right: 15px;
+        padding-top: 5px;
+        direction: rtl;
+    }
+
+    .bodyWideControl span.news {
+        font: normal 11px tahoma;
+        color: #648404;
+        text-align: right;
+        float: right;
+    }
+
+    .bodyWideControl span.continue {
+        font: normal 10px tahoma;
+        color: #044a87;
+        text-align: right;
+        float: right;
+        padding-top: 6px;
+    }
+
+.marginNews {
+    width: 608px;
+    height: 12px;
+    float: right;
+    background: transparent url(../Images/marginNews.jpg) no-repeat top right;
+    margin-right: 20px;
+}
+
+.about img {
+    padding-left: 5px;
+    padding-top: 4px;
+}
+/*--------------*/
+
+/*bottomPage*/
+.bottomPage {
+    width: 990px;
+    height: 50px;
+    background: transparent url(../Images/bottomPage.jpg) no-repeat top center;
+    margin: 0 auto;
+}
+
+.spn {
+    font: normal 11px tahoma;
+    color: #093e6b;
+    float: left;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.mrgLeft2 {
+    margin-left: 55px;
+}
+
+.mrgLeft3 {
+    margin-left: 315px;
+}
+
+/*--------------*/
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 185px;
+    background: #003f76 url(../Images/footerLight.jpg) no-repeat center 50px;
+    float: right;
+}
+
+.footerMiddle {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.linkDiv {
+    height: 130px;
+    float: left;
+    width: 390px;
+}
+
+.linkDiv2 {
+    height: 130px;
+    float: left;
+    width: 90px;
+}
+
+.fMenu {
+    float: left;
+    padding-top: 20px;
+    direction: rtl;
+    text-align: left;
+}
+
+    .fMenu li {
+        padding-top: 3px;
+    }
+
+        .fMenu li a {
+            font: normal 11px tahoma;
+            color: #9cbad4;
+            text-decoration: none;
+            letter-spacing: 1px;
+            background: transparent url(../Images/linkArrow.png) no-repeat center left;
+            padding-left: 30px;
+        }
+
+            .fMenu li a:hover {
+                color: #fff;
+            }
+
+.sitelicenseDiv {
+    background: #222 url(../Images/footerPattern.jpg) repeat;
+    width: 100%;
+    height: 39px;
+    float: right;
+}
+
+.sitelicenseCenter {
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+
+p.sitelicense {
+    font: normal 11px tahoma;
+    color: #727272;
+    width: 990px;
+    text-align: left;
+    width: 500px;
+    letter-spacing: 1px;
+    padding-left: 34px;
+    float: left;
+}
+
+    p.sitelicense span {
+        font: normal 11px tahoma;
+        color: #b0c25e;
+    }
+
+p.designBy {
+    font: normal 11px tahoma;
+    color: #b0c25e;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-right: 34px;
+    float: right;
+}
+/*--------------*/
+
+/*loginForm*/
+.loginDiv {
+    width: 400px;
+    background-color: #f5f5f5;
+    margin: 20px auto 0 auto;
+    height: 190px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(1, 9, 9, 0.1);
+}
+
+    .loginDiv p:first-child {
+        font: normal 11px tahoma;
+        color: #555;
+        text-align: right;
+        direction: rtl;
+        margin-bottom: 20px;
+    }
+
+    .loginDiv a {
+        font: normal 11px tahoma;
+        color: #0865b5;
+        text-align: right;
+        direction: rtl;
+        margin-bottom: 20px;
+        text-decoration: none;
+        margin-right: 53px;
+    }
+
+        .loginDiv a:hover {
+            font: normal 11px tahoma;
+            color: #004682;
+            text-align: right;
+            direction: rtl;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+.rowLogin {
+    width: 400px;
+    float: right;
+    text-align: right;
+}
+
+.lblLoginForm {
+    width: 50px;
+    float: right;
+    font: normal 11px tahoma;
+    color: #555;
+    text-align: right;
+    height: 40px;
+    clear: right;
+    margin-right: 55px;
+}
+
+.txtLoginForm {
+    width: 250px;
+    float: right;
+    text-align: right;
+    height: 30px;
+}
+
+    .txtLoginForm input {
+        width: 220px;
+        height: 25px;
+        background-color: #fff;
+        border: solid 1px #b5b5b5;
+        margin-right: 10px;
+        font: normal 13px tahoma;
+        color: #555;
+    }
+
+        .txtLoginForm input:active, .txtLoginForm input:hover {
+            background-color: #f6f6f6;
+        }
+
+        .txtLoginForm input:focus {
+            box-shadow: 0 1px 1px rgba(9, 9, 9, 0.075) inset, 0 0 3px rgba(9, 9, 9, 0.3);
+            outline: 0 none;
+            border: solid 1px #b9b9b9;
+            transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+        }
+
+.rowLogin input[type=submit] {
+    width: 127px;
+    height: 40px;
+    background: transparent url(../Images/btnLogin.png) no-repeat center center;
+    border: none;
+    font: normal 12px tahoma;
+    cursor: pointer;
+    margin-left: 60px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+    .rowLogin input[type=submit]:hover {
+        background: transparent url(../Images/btnLogin-hover.png) no-repeat center center;
+        color: #000;
+    }
+
+.btnPosition {
+    text-align: left;
+}
+/*--------------*/
+
+
+
+.Lables {
+    font-family: Tahoma;
+    font-variant: normal;
+    font-size: 11px;
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+}
+
+.Menus {
+    background-image: url('../images/bgMenu.gif');
+    padding-top: 2px;
+}
+
+    .Menus a {
+        font-family: Tahoma;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 12px;
+        text-align: justify;
+        color: black;
+        height: 15px;
+        margin-right: 22px;
+        vertical-align: middle;
+    }
+
+#page-inner {
+    margin: 15px auto;
+    border: 0px solid rgb(234, 238, 216);
+    width: 960px;
+}
+
+.DataEntryGroup {
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: right;
+    overflow: auto;
+}
+
+    .DataEntryGroup legend {
+        font-family: Tahoma;
+        font-size: 12px;
+        color: #000000;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+
+    .DataEntryGroup fieldset {
+        padding: 0px 5px 10px 5px;
+    }
+
+/* DataEntry Items Area */
+.tblDataEntry {
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-color: #aaa;
+    border-left-width: 0px;
+    border-left-color: #aaa;
+    border-right-width: 0px;
+    border-right-color: #aaa;
+    border-top-width: 0px;
+    border-top-color: #aaa;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #000;
+    background-color: #eaf3ff;
+    padding: 5px;
+}
+
+.tblDataEntry_SectionTitle {
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #96b3dd;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    font-weight: bold;
+}
+
+.tblDataEntry tr td {
+    height: 20px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.itemAstrisk {
+    width: 10px;
+    color: #ff5000;
+    text-align: right;
+}
+
+.itemCaption {
+    width: 120px;
+    font-weight: normal;
+}
+
+.itemField {
+    width: 160px;
+}
+
+.itemValidation {
+    width: 10px;
+    white-space: nowrap;
+}
+
+    .itemValidation span {
+        background-color: #ffe89b;
+        color: #ff0000;
+        border-color: #ffa32e;
+        border-width: 1px;
+        border-style: solid;
+        height: 18px;
+        white-space: nowrap;
+        text-align: right;
+        position: absolute;
+        padding: 0px 2px 0px 5px;
+        vertical-align: middle;
+        margin: -10px -70px 0px 0px;
+        filter: alpha(opacity=80);
+        opacity: 0.80;
+        -moz-opacity: 0.80;
+        -khtml-opacity: 0.80;
+    }
+
+.itemValidationMail {
+    width: 10px;
+    white-space: nowrap;
+}
+
+    .itemValidationMail span {
+        background-color: #ffe89b;
+        color: #ff0000;
+        border-color: #ffa32e;
+        border-width: 1px;
+        border-style: solid;
+        height: 18px;
+        white-space: nowrap;
+        text-align: right;
+        position: absolute;
+        padding: 0px 2px 0px 5px;
+        vertical-align: middle;
+        margin: -10px -160px 0px 0px;
+        filter: alpha(opacity=80);
+        opacity: 0.80;
+        -moz-opacity: 0.80;
+        -khtml-opacity: 0.80;
+    }
+
+.itemButtons {
+    white-space: nowrap;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.btnProceed {
+    background-image: url(Images/btn_rest.gif);
+    border-bottom: #3366cc 1px solid;
+    text-align: center;
+    border-left: #3366cc 1px solid;
+    line-height: 18px;
+    background-color: #cee7ff;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    height: 22px;
+    font-size: 11px;
+    border-top: #3366cc 1px solid;
+    cursor: pointer;
+    border-right: #3366cc 1px solid;
+    overflow: visible; /*background-color:#55aa55; 	color:#ffffff; 	font-family:Tahoma; 	font-size:12px; 	border-style:solid; 	border-width:1px; 	border-color:#005500; 	white-space:nowrap; 	cursor:hand; 	text-align:center; 	padding-left:10px; 	padding-right:10px;*/
+}
+
+.btnProceedLogin {
+    background-image: url(Images/btn_rest.gif);
+    border-bottom: #3366cc 1px solid;
+    text-align: center;
+    border-left: #3366cc 1px solid;
+    line-height: 18px;
+    background-color: #cee7ff;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    height: 22px;
+    font-size: 11px;
+    border-top: #3366cc 1px solid;
+    cursor: pointer;
+    border-right: #3366cc 1px solid;
+    overflow: visible;
+    margin-right: 76px;
+    margin-top: 2px;
+}
+
+.btnNotProceed {
+    background-color: #aa5555;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #550000;
+    white-space: nowrap;
+    cursor: hand;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btnCancel {
+    background-color: #cccccc;
+    color: #222222;
+    font-family: Tahoma;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #555555;
+    white-space: nowrap;
+    cursor: hand;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Complete View, Expanable in Grid */
+.tblCompleteView {
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #aaa;
+    border-left-width: 1px;
+    border-left-color: #aaa;
+    border-right-width: 1px;
+    border-right-color: #aaa;
+    border-top-width: 1px;
+    border-top-color: #eef4ff;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #000;
+    width: 100%;
+    background-color: #eef4ff;
+}
+
+    .tblCompleteView tr {
+        height: 22px;
+        vertical-align: middle;
+    }
+
+.itemCaption_CompleteView {
+    width: 200px;
+    text-indent: 5px;
+    font-weight: bold;
+}
+
+.itemField_CompleteView {
+    text-indent: 5px;
+    font-weight: normal;
+}
+
+/* Search Items Area  */
+.pnlDataSearch {
+    /*overflow-y:auto; 	overflow-x:hidden;*/
+    overflow: auto;
+}
+
+.tblDataSearch {
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-color: #aaa;
+    border-left-width: 0px;
+    border-left-color: #aaa;
+    border-right-width: 0px;
+    border-right-color: #aaa;
+    border-top-width: 0px;
+    border-top-color: #eef4ff;
+    margin: 5px 5px 5px 5px;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #000;
+    width: 97%; /*background-color:#eaf3ff;*/
+}
+
+    .tblDataSearch tr {
+        height: 25px;
+        vertical-align: middle;
+    }
+
+.itemCaption_DataSearch {
+    width: 130px;
+    text-indent: 5px;
+    font-weight: normal;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.itemField_DataSearch {
+    width: 200px;
+    text-indent: 5px;
+    font-weight: normal;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.itemButton_DataSearch {
+    white-space: nowrap;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.mailToolbar {
+}
+
+.itemValidationLogin {
+    width: 250px;
+    white-space: nowrap;
+}
+
+    .itemValidationLogin span {
+        font-family: Tahoma;
+        font-size: 12px;
+        color: #ff0000;
+        white-space: nowrap;
+        text-align: right;
+        position: absolute;
+        padding: 0px 2px 0px 5px;
+        vertical-align: middle;
+        margin: 45px -170px 0px 0px;
+    }
+
+.ms-crm-TextBox {
+    border: 1px solid #6699cc;
+    color: #000000;
+    font-size: 11px;
+    font-family: Tahoma;
+    margin-bottom: 0px;
+}
+
+select.ms-crm-DDL {
+    border-bottom: #6699cc 1px solid;
+    border-left: #6699cc 1px solid;
+    color: #000000;
+    font-size: 11px;
+    border-top: #6699cc 1px solid;
+    border-right: #6699cc 1px solid;
+    font-family: Tahoma;
+}
+
+INPUT.ms-crm-RadioButton {
+    border-bottom: 0px;
+    border-left: 0px;
+    width: 15px;
+    height: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+    border-top: 0px;
+    cursor: hand;
+    margin-right: 3px;
+    border-right: 0px;
+}
+
+TABLE.ms-crm-ListControl {
+    border-bottom: #6699cc 1px solid;
+    border-left: #6699cc 1px solid;
+    background-color: #ffffff;
+    width: 100%;
+    table-layout: fixed;
+    height: 100%;
+    border-top: #6699cc 1px solid;
+    border-right: #6699cc 1px solid;
+}
+
+.ms-crm-ListArea {
+    background-color: #ffffff;
+    width: 100%;
+    table-layout: fixed;
+    height: 100%;
+}
+
+.TextBody {
+    height: 100px;
+    overflow: auto;
+    border-bottom: #6699cc 1px solid;
+    border-left: #6699cc 1px solid;
+    color: #000000;
+    font-size: 11px;
+    border-top: #6699cc 1px solid;
+    border-right: #6699cc 1px solid;
+    font-family: Tahoma;
+}
+
+div#spinner {
+    display: none;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: no-repeat center #fff;
+    text-align: center;
+    padding: 10px;
+    font: normal 12px Tahoma, Geneva, sans-serif;
+    border: 1px solid #666;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 2;
+    overflow: auto;
+}
+
+/*Mostafa_Jafari 921207*/
+.EhrDoc {
+}
+
+.PatintInfo {
+    position: relative;
+}
+
+.FL {
+    float: left;
+}
+
+.FR {
+    float: right;
+}
+
+.P_R {
+    position: relative;
+}
+
+.P_A {
+    position: absolute;
+}
+
+.W10P {
+    width: 10%;
+}
+
+.W15P {
+    width: 15%;
+}
+
+.W20P {
+    width: 20%;
+}
+
+.W30P {
+    width: 30%;
+}
+
+.W40P {
+    width: 40%;
+}
+
+.W50P {
+    width: 50%;
+}
+
+.W60P {
+    width: 60%;
+}
+
+.W70P {
+    width: 70%;
+}
+
+.W80P {
+    width: 70%;
+}
+
+.W90P {
+    width: 90%;
+}
+
+.W100P {
+    width: 100%;
+}
+
+
+
+
+
+.W10 {
+    width: 10px;
+}
+
+.W20 {
+    width: 20px;
+}
+
+.W30 {
+    width: 30px;
+}
+
+.W40 {
+    width: 40px;
+}
+
+.W50 {
+    width: 50px;
+}
+
+.W60 {
+    width: 60px;
+}
+
+.W70 {
+    width: 70px;
+}
+
+.W80 {
+    width: 70px;
+}
+
+.W90 {
+    width: 90px;
+}
+
+.W100 {
+    width: 100px;
+}
+
+.W120 {
+    width: 120px;
+}
+
+.W140 {
+    width: 140px;
+}
+
+
+.W160 {
+    width: 160px;
+}
+
+
+.W180 {
+    width: 180px;
+}
+
+.W200 {
+    width: 200px;
+}
+
+
+
+
+
+
+.H10 {
+    height: 10px;
+}
+
+.H20 {
+    height: 20px;
+}
+
+.H30 {
+    height: 30px;
+}
+
+.H40 {
+    height: 40px;
+}
+
+.H50 {
+    height: 50px;
+}
+
+.H60 {
+    height: 60px;
+}
+
+.H70 {
+    height: 70px;
+}
+
+.H80 {
+    height: 80px;
+}
+
+.H90 {
+    height: 90px;
+}
+
+.H100 {
+    height: 100px;
+}
+
+/*-------------------left----------------------------*/
+
+
+
+.L10 {
+    left: 10px;
+}
+
+.L20 {
+    left: 20px;
+}
+
+.L30 {
+    left: 30px;
+}
+
+.L40 {
+    left: 40px;
+}
+
+.L50 {
+    left: 50px;
+}
+
+.L60 {
+    left: 630px;
+}
+
+.L70 {
+    left: 70px;
+}
+
+.L80 {
+    left: 80px;
+}
+
+.L90 {
+    left: 90px;
+}
+
+.L100 {
+    left: 100px;
+}
+/*-------------------right----------------------------*/
+.R10 {
+    right: 10px;
+}
+
+.R20 {
+    right: 20px;
+}
+
+.R30 {
+    right: 30px;
+}
+
+.R40 {
+    right: 40px;
+}
+
+.R50 {
+    right: 50px;
+}
+
+.R60 {
+    right: 60px;
+}
+
+.R70 {
+    right: 70px;
+}
+
+.R80 {
+    right: 70px;
+}
+
+.R90 {
+    right: 90px;
+}
+
+.R100 {
+    right: 100px;
+}
+/*-----------------------------------------------*/
+/*-------------------Top----------------------------*/
+.T10 {
+    top: 10px;
+}
+
+.T20 {
+    top: 20px;
+}
+
+.T30 {
+    top: 30px;
+}
+
+.T40 {
+    top: 40px;
+}
+
+.T50 {
+    top: 50px;
+}
+
+.T60 {
+    top: 60px;
+}
+
+.T70 {
+    top: 70px;
+}
+
+.T80 {
+    top: 70px;
+}
+
+.T90 {
+    top: 90px;
+}
+
+.T100 {
+    top: 100px;
+}
+/*-----------------------------------------------*/
+.B10 {
+    bottom: 10px;
+}
+
+.B20 {
+    bottom: 20px;
+}
+
+.B30 {
+    bottom: 30px;
+}
+
+.B40 {
+    bottom: 40px;
+}
+
+.B50 {
+    bottom: 50px;
+}
+
+.B60 {
+    bottom: 60px;
+}
+
+.B70 {
+    bottom: 70px;
+}
+
+.B80 {
+    bottom: 80px;
+}
+
+.B90 {
+    bottom: 90px;
+}
+
+.B100 {
+    bottom: 100px;
+}
+
+
+/*------------------------------------*/
+.MR10 {
+    margin: 10px;
+}
+
+.MR20 {
+    margin: 20px;
+}
+
+.MR30 {
+    margin: 30px;
+}
+
+.MR40 {
+    margin: 40px;
+}
+
+.MR50 {
+    margin: 50px;
+}
+
+.MR60 {
+    margin: 60px;
+}
+
+.MR70 {
+    margin: 70px;
+}
+
+.MR80 {
+    margin: 80px;
+}
+
+.MR90 {
+    margin: 90px;
+}
+
+.MR100 {
+    margin: 100px;
+}
+/*-----------------------------------------------*/
+.SubEhrBodyDoc {
+    padding: 0px 0 5px 0;
+    width: 743px;
+    position: relative;
+    right: 20px;
+    bottom: -18px;
+    /* z-index: 0; */
+    background-color: white;
+}
+
+.SubEhrBodyDocWood {
+    background: linear-gradient(rgb(116, 57, 4),rgb(54, 34, 3));
+    width: 785px;
+    padding: 0px 0px 40px 0px;
+    position: relative;
+    right: 96px;
+    bottom: 53px;
+    z-index: 0;
+    border-radius: 17px;
+    background-color: rgb(112, 67, 9);
+    /* box-shadow: -2px -3px 27px rgb(31, 31, 31); */
+    width: 785px;
+    padding: 0px 0px 40px 0px;
+    position: relative;
+    right: 96px;
+    bottom: 53px;
+}
+
+.clipsPic {
+    position: relative;
+    /* left: 79px; */
+    right: 330px;
+    z-index: 1;
+    bottom: 12px;
+    height: 50%;
+    width: 300px;
+    bottom: 9px;
+}
+
+.EhrBodyDoc {
+    width: 750px;
+    position: relative;
+    right: 87px;
+    bottom: 54px;
+    z-index: 0;
+    height: 1600px;
+    background-color: white;
+    box-shadow: 4px -2px 8px rgb(129, 129, 129);
+}
+
+.PatientInfoBox {
+    margin: 12px;
+}
+
+.EHR_Font_Style {
+    font-size: 12px;
+}
+
+.PatientBoxP1 {
+    height: inherit;
+}
+
+.patientInfoTable {
+    border: 1px solid #d4d4d4;
+}
+
+    .patientInfoTable tr {
+        border: 1px solid #d4d4d4;
+        padding: 10px;
+    }
+
+    .patientInfoTable td {
+        border: 1px solid #d4d4d4;
+        padding: 9px;
+    }
+
+.C_Blue {
+    color: rgb(51, 0, 255);
+}
+
+.typeSample {
+    margin: 0px 10px 0px 5px;
+}
+
+.ClinicalFindingInfoBox {
+    width: 720px;
+    margin: 14px;
+}
+
+.RegisterLabResult {
+    position: relative;
+    right: 75px;
+    top: 0px;
+    /* height: 97px; */
+    background-color: rgb(249, 253, 255);
+    width: 640px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    right: 135px;
+    box-shadow: 5px -3px 14px rgb(134, 134, 134);
+    top: 0px;
+    margin: 20px;
+}
+
+.RegisterLabResulteTable {
+}
+
+    .RegisterLabResulteTable tr {
+        padding: 10px;
+    }
+
+    .RegisterLabResulteTable td {
+        padding: 9px;
+    }
+
+.UserFamilyName {
+    color: white;
+    font-size: 14px;
+    position: relative;
+    font-weight: bolder;
+    bottom: -51px;
+}
+

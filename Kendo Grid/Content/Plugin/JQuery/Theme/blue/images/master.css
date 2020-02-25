@@ -1,0 +1,387 @@
+﻿
+/* body*/
+.bg-body
+{
+    background: #bec9cf url(images/bg-repeat.jpg) repeat-x top;
+}
+.bg
+{
+    width: 100%;
+    background: transparent url(images/bg.jpg) no-repeat top;
+}
+.container
+{
+    margin: 0px auto;
+}
+
+/* TopPage*/
+.right-round
+{
+    width: 11px;
+    height: 21px;
+    background: transparent url(images/right-round.png) no-repeat bottom left;
+    float: right;
+}
+.left-round
+{
+    width: 11px;
+    height: 21px;
+    background: transparent url(images/left-round.png) no-repeat bottom right;
+    float: right;
+}
+.middl-round
+{
+    height: 21px;
+    background: transparent url(images/middle-round.png) repeat-x bottom;
+    float: right;
+}
+
+
+/* TopIcons*/
+.margin-top
+{
+    height: 150px;
+}
+.top-page
+{
+    height: 21px;
+}
+
+.icons
+{
+    width: 470px;
+    height: 84px;
+    float: left;
+    margin-top: 60px;
+}
+.home-icon
+{
+    display: inline-block;
+    width: 107px;
+    height: 84px;
+    background: url(images/home-icon.png) no-repeat top center;
+    margin-right: 5px;
+}
+.home-icon:hover
+{
+    background: url(images/home-icon-hover.png) no-repeat top center;
+}
+.aboutus-icon
+{
+    display: inline-block;
+    width: 107px;
+    height: 84px;
+    background: url(images/aboutus-icon.png) no-repeat top center;
+    margin-right: 5px;
+}
+.aboutus-icon:hover
+{
+    background: url(images/aboutus-icon-hover.png) no-repeat top center;
+}
+
+
+
+
+.rss-icon
+{
+    display: inline-block;
+    width: 107px;
+    height: 84px;
+    background: url(images/rss-icon.png) no-repeat top center;
+    margin-right: 5px;
+}
+.rss-icon:hover
+{
+    background: url(images/rss-icon-hover.png) no-repeat top center;
+}
+
+
+
+.faq-icon
+{
+    display: inline-block;
+    width: 107px;
+    height: 84px;
+    background: url(images/faq-icon.png) no-repeat top center;
+    margin-right: 5px;
+}
+.faq-icon:hover
+{
+    background: url(images/faq-icon-hover.png) no-repeat top center;
+}
+/*BgPage*/
+.bg-page
+{
+    background: #eaeaea url(images/page-bg.jpg) repeat-x top;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/* Footer*/
+.footer
+{
+    margin-top: 25px;
+}
+.footer-right
+{
+    width: 11px;
+    height: 40px;
+    background: transparent url(images/footer-right.png) no-repeat bottom left;
+    float: right;
+}
+.footer-left
+{
+    width: 11px;
+    height: 40px;
+    background: transparent url(images/footer-left.png) no-repeat bottom right;
+    float: right;
+}
+.footer-middle
+{
+    height: 40px;
+    background: transparent url(images/footer-middle.png) repeat-x bottom;
+    float: right;
+}
+
+
+.sitelicence
+{
+    font: normal 10px tahoma;
+    color: #ebeaea;
+    direction: rtl;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* BottomPage*/
+.right-round-bottom
+{
+    width: 11px;
+    height: 21px;
+    background: transparent url(images/right-round-bottom.png) no-repeat top left;
+    float: right;
+}
+.middle-round-bottom
+{
+    height: 21px;
+    background: transparent url(images/middle-round-bottom.png) repeat-x top;
+    float: right;
+}
+.left-round-bottom
+{
+    width: 11px;
+    height: 21px;
+    background: transparent url(images/left-round-bottom.png) no-repeat top right;
+    float: right;
+}
+
+.highlight1
+{
+    background: #91d9f1 url('images/highlight1.png') repeat-x;
+}
+.highlight2
+{
+    background: #cdf4ff url('images/highlight2.png') repeat-x;
+}
+.highlight3
+{
+    background: #0084ff url('images/highlight3.png') repeat-x;
+}
+.highlight4
+{
+    background: #266ada url('images/highlight4.png') repeat-x;
+}
+.highlight5
+{
+    background: #22d3ea url('images/highlight5.png') repeat-x;
+}
+.highlight6
+{
+    background: #93dff5 url('images/highlight6.png') repeat-x;
+}
+.highlight7
+{
+    background: #81d8ff url('images/highlight7.png') repeat-x;
+}
+
+.highlight8
+{
+    background: #cdf4ff url('images/highlight8.png') repeat-x;
+}
+.btn
+{
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #0d86e3 url(images/btn-bg.jpg) repeat-x top;
+    border: solid 1px #32a5cf;
+    font: 10px tahoma;
+    color: #fff;
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.btn:hover
+{
+    background: #0d86e3 url(images/btn-bg-hover.jpg) repeat-x top;
+}
+/* main-menu*/
+.main-menu-btn
+{
+    width: 123px;
+    height: 59px;
+    position: fixed;
+    top: 10%;
+    left: -83px;
+    background: transparent url(images/main-menu-btn.png) no-repeat top center;
+    display: block;
+    z-index: 150;
+}
+.main-menu-btn:hover
+{
+    background: transparent url(images/main-menu-btn-hover.png) no-repeat top center;
+}
+
+
+#menu-all
+{
+    display: none;
+}
+#menu
+{
+    list-style: none;
+    width: 100%;
+}
+#menu ul
+{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: bold 10px #ccc;
+}
+
+#menu li
+{
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    margin: 2px 0;
+    border: 1px solid #fff;
+    background: #dedbd2 url(images/bg-li-menu.jpg) repeat-x top;
+    text-align: right;
+    cursor: pointer;
+}
+
+#menu li:hover
+{
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #b1b1b1 url(images/bg-li-menu-hover.jpg) repeat-x top;
+}
+
+#menu li a
+{
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    padding: 7px 15px 0 0;
+}
+#menu > a
+{
+    display: inline-block;
+    text-decoration: none;
+    height: 20px;
+    width: 74px;
+    font: normal 10px tahoma;
+    color: #444444;
+}
+#menu li.has-submenu a
+{
+    background: url(images/menu-left-arrow.png) 5% 25% no-repeat;
+}
+
+.top-menu-jq
+{
+    border: 1px solid #62bdfd;
+    width: 100%;
+    height: 31px;
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background: transparent url(images/bg-top-jq.jpg) repeat-x top;
+    margin-bottom: 5px;
+}
+.name-current-menu
+{
+    margin-right: 8px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.bg-title-top
+{
+    height: 20px;
+    background: transparent url(images/bg-title-top.jpg) repeat-x top;
+    -moz-border-radius-topleft: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin:0px 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+   
+}
+.img-arrow
+{
+    width: 13px;
+    height: 11px;
+    background: transparent url(images/img-arrow.png) no-repeat top right;
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 2px;
+}
